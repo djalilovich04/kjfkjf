@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
 import  Edahabia  from "./Edahabia"
+import CCP from "./CCP";
 
 const BookingBill = ({ price }) => {
   const today = new Date();
@@ -85,6 +86,7 @@ const BookingBill = ({ price }) => {
             DZD {parseFloat(price * nights + price * nights * 0.13).toFixed(2)}
           </span>
         </div>
+        {/*<CCP/>*/}
         <Edahabia/>
         <div className="disclaimer">You won&apos;t be charged yet</div>
       </div>

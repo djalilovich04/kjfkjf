@@ -272,12 +272,12 @@ textarea {
   height: 60px;
   cursor: pointer;
   flex-direction: column;
-  margin: 50px 0 50px 400px;
+  margin: 30px 0 50px 370px;
 
   transition: 0.3s ease;
 
   padding-top: 18px;
-
+  text-align: center;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;

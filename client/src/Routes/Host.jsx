@@ -794,7 +794,7 @@ function Host() {
                 : "dark grey",
             }}
           >
-            Publish
+            <p style={{margin:'0 0 0 85px'}}>Publish</p>
           </button>
         </form>
       </div>
